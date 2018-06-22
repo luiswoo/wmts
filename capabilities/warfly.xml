@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>donland</ows:Title>
+        <ows:Title>warfly</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,11 +14,11 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Donland</ows:Title>
+            <ows:Title>WarFly.ru</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>donland</ows:Identifier>
+            <ows:Identifier>warfly</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>donland</ows:Identifier>
+                <ows:Identifier>warfly</ows:Identifier>
             </Style>
             <Format>image/jpg</Format>
             <TileMatrixSetLink>
