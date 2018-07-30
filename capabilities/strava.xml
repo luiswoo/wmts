@@ -14,7 +14,7 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Strava - al</ows:Title>
+            <ows:Title>Strava - all</ows:Title>
             <ows:Abstract></ows:Abstract>
             <ows:Identifier>Strava - all</ows:Identifier>
             <Style isDefault="true">
@@ -34,12 +34,12 @@
                          template="https://heatmap-external-c.strava.com/tiles-auth/both/bluered/{TileMatrix}/{TileCol}/{TileRow}.png?Key-Pair-Id=APKAIDPUN4QMG7VUQPSA&amp;Signature=exZVi0H1xa9HMwQX7GMh69ncMXXD9MlIfJnRTh5FYx9FLV~mDjbrdot8HN71HWKQ0HwRh52zzOJUa~2hMr0PtjS1jVxyqPOFtx2LwpfA9oDDIlYPST8SnG-gFcW73XVdkpOqf6GnVAZakxBPxdhe1Sr1UL~dgRU527PVpjxfvh-UWJMxI0MATXw6vH26fGBjHTyYJlGw7qG3Al6h6UfRxU0cJjQ8bGFhcXc1qXztJSZoXCk8Wrdy-X3XivNVvQf2j1yFCqUvceKDlskrqb8STpbN~UD5bO9N2vyK4j339hv4Liuk5YE1F-fIKM5VdhpmNb4Eat7BFTh6TBzCQ8qqEw__;&amp;Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vaGVhdG1hcC1leHRlcm5hbC0qLnN0cmF2YS5jb20vKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTUzMzQ5OTE4Nn0sIkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTMyMjc1MTg2fX19XX0_"
                          resourceType="tile"/>
         </Layer>             
-         <TileMatrixSet>
+       <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
                 <ows:LowerCorner>-180 -90</ows:LowerCorner>
                 <ows:UpperCorner>180 90</ows:UpperCorner>
-            </ows:BoundingBox> 
+           </ows:BoundingBox> 
           <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
             <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible</WellKnownScaleSet>
             <TileMatrix>
@@ -194,24 +194,6 @@
                 <TileHeight>256</TileHeight>
                 <MatrixWidth>65536</MatrixWidth>
                 <MatrixHeight>65536</MatrixHeight>
-            </TileMatrix>
-            <TileMatrix>
-                <ows:Identifier>17</ows:Identifier>
-                <ScaleDenominator>4265.45916770</ScaleDenominator>
-                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
-                <TileWidth>256</TileWidth>
-                <TileHeight>256</TileHeight>
-                <MatrixWidth>131072</MatrixWidth>
-                <MatrixHeight>131072</MatrixHeight>
-            </TileMatrix>
-            <TileMatrix>
-                <ows:Identifier>18</ows:Identifier>
-                <ScaleDenominator>2132.72958385</ScaleDenominator>
-                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
-                <TileWidth>256</TileWidth>
-                <TileHeight>256</TileHeight>
-                <MatrixWidth>262144</MatrixWidth>
-                <MatrixHeight>262144</MatrixHeight>
             </TileMatrix>
         </TileMatrixSet>
     </Contents>
