@@ -25,16 +25,16 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://tile0.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.1"
+                         template="https://tile0.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.5"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://tile1.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.1"
+                         template="https://tile1.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.5"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://tile2.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.1"
+                         template="https://tile2.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.5"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://tile3.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.1"
+                         template="https://tile3.maps.2gis.com/tiles?&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;v=1.5"
                          resourceType="tile"/>
         </Layer>             
         <TileMatrixSet>
