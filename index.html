@@ -1,18 +1,18 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>WMTS Layer from Capabilities</title>
-    <link rel="stylesheet" href="https://openlayers.org/en/v4.4.2/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
     <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
-    <script src="https://openlayers.org/en/v4.4.2/build/ol.js"></script>
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
   </head>
   <body>
     <div id="map" class="map"></div>
     <script>
       var parser = new ol.format.WMTSCapabilities();
       var map;
-
       fetch('./capabilities/strava.xml').then(function(response) {
         return response.text();
       }).then(function(text) {
@@ -20,7 +20,6 @@
         var options = ol.source.WMTS.optionsFromCapabilities(result, {
           layer: 'strava-all'
         });
-
         map = new ol.Map({
           layers: [
             new ol.layer.Tile({
