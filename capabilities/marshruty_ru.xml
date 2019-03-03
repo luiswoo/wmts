@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="https://maps.marshruty.ru/ml.ashx?x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;i=1&amp;ss=ee6f05"
+                         template="https://maps.marshruty.ru/ml.ashx?x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;i=1&amp"
                          resourceType="tile"/>
         </Layer>             
         <TileMatrixSet>
