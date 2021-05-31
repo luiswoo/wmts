@@ -37,6 +37,30 @@
                          template="https://worldtiles4.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+      <Layer>
+            <ows:Title>Waze gps_points</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>waze-waze gps_points</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>waze gps_points</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://world-editor-tiles1.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?clientLayer=gps_points"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://world-editor-tiles2.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?clientLayer=gps_points"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://world-editor-tiles3.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?clientLayer=gps_points"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://world-editor-tiles4.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?clientLayer=gps_points"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
